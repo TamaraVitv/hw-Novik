@@ -3,8 +3,7 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-
-.nav_link {
+.link {
   color: #828282;
   text-decoration: none;
   font-family: "Open sans", sans-serif;
@@ -12,6 +11,13 @@ body {
   line-height: 28px;
   letter-spacing: 0.02em;
   transition: all 0.1s ease-in;
+}
+.nav_link {
+  margin-right: 40px;
+  display: inline-block;
+}
+.nav_link:last-of-type {
+  margin-right: 0px;
 }
 .nav_link:hover {
   color: #000000;
@@ -30,7 +36,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  /* gap: 40px; */
 }
 .container {
   max-width: 970px;
